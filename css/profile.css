@@ -1,0 +1,310 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+    background: #eaebef;
+    height: 300px;
+}
+
+/* bg */
+
+.bg-img {
+	padding: 40px;
+	background-image: url('https://privatejetbooking.ru/wp-content/uploads/2022/08/main-bg-5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-color: #8080808a;
+	padding-bottom: 50px;
+}
+
+
+.bg-title {
+	text-align: center;
+	letter-spacing: .05em;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 56px;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+	z-index: 2;
+	margin: 0;
+}
+
+.bg-textr {
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+}
+
+.bg-button {
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	align-items: center;
+	padding: 8px 16px;
+	background: none;
+	border: solid 1px rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+	transition: .5s;
+}
+
+
+
+.button-world {
+	margin-right: 5px;
+}
+
+
+/* header */
+
+.logo {
+	font-family: 'Montserrat';
+	font-style: normal;	
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 40px;
+	text-decoration: none;
+	padding: 0;
+	color: black;
+}
+
+.container {
+	max-width: 956px;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 20px;
+	background: #fff;
+}
+
+.nav {
+	background: #fff;
+}
+
+.links, ul {
+	list-style: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+
+}
+
+.link {
+	text-decoration: none;
+	color: black;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+.button {
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	align-items: center;
+	padding: 8px 16px;
+	background: none;
+	border: solid 1px rgb(0, 0, 0);
+	border-radius: 5px;
+	color: rgb(0, 0, 0);
+	transition: .5s;
+}
+
+
+.btn-link {
+	text-decoration: none;
+}
+
+.button:hover {
+	border: solid 1px rgb(194, 194, 194);
+	color: rgb(194, 194, 194);
+	transition: .5s;
+}
+
+.bg-button:hover {
+
+	border: solid 1px rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
+	transition: .5s;
+}
+
+.button-person {
+	margin-right: 5px;
+
+}
+
+/* profile */
+
+.profile {
+    background-color: #fff;
+    max-width: 300px;
+	margin: 0 auto;
+    margin-top: 40px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: -2px 1px 10px #727272;
+
+}
+
+.progile-avatar {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 80px;
+}
+
+.avatar-title,
+.avatar-text {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* footer */
+
+
+.footer {
+    padding: 15px;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+  }
+  .footer-block {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  }
+  .footer-nav {
+	margin-left: 35px;
+	margin-right: auto;
+  }
+  .footer-link {
+	display: inline-block;
+	color: #595959;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-decoration: none;
+  }
+  .footer-link:not(:last-child) {
+	margin-right: 15px;
+  }
+  .social-links {
+	display: flex;
+	align-items: center;
+  }
+  .social-link:not(:last-child) {
+	margin-right: 21px;
+  }
+
+
+  .footer-logo {
+	width: 100px;
+  }
+
+
+
+/* forms */
+
+.form-airplane {
+	background-color: #fff;
+    margin-top: 40px;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+	flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: -2px 1px 10px #727272;
+}
+
+.form-text {
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.forms {
+	margin-right: 20px;
+}
+
+.time,
+.day {
+	padding: 10px;
+	border: none;
+}
+
+.date {
+	padding: 10px;
+	border: solid 1px #000;
+	width: 100px;
+	
+}
+
+.buttonss {
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	align-items: center;
+	padding: 8px 16px;
+	background: none;
+	border: solid 1px rgb(0, 0, 0);
+	border-radius: 5px;
+	color: rgb(0, 0, 0);
+	transition: .5s;
+}
+
+/* media */
+
+@media (max-width: 400px) {
+	.buttonss {
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.forms {
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 700px) {
+	.buttonss {
+		margin-bottom: 10px;
+	}
+
+	.forms {
+		width: 45%;
+		margin-bottom: 10px;
+	}
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+	.buttonss {
+		margin-bottom: 10px;
+	}
+
+	.forms {
+		width: 20%;
+		margin-bottom: 10px;
+	}
+}

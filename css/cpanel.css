@@ -1,0 +1,288 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+    background: #eaebef;
+    height: 300px;
+}
+
+/* bg */    
+
+.bg-title {
+	text-align: center;
+	letter-spacing: .05em;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 56px;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+	z-index: 2;
+	margin: 0;
+}
+
+.bg-textr {
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+}
+
+.bg-button {
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	align-items: center;
+	padding: 8px 16px;
+	background: none;
+	border: solid 1px rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+	transition: .5s;
+}
+
+
+
+.button-world {
+	margin-right: 5px;
+}
+
+
+/* header */
+
+.logo {
+	font-family: 'Montserrat';
+	font-style: normal;	
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 40px;
+	text-decoration: none;
+	padding: 0;
+	color: black;
+}
+
+.container {
+	max-width: 956px;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 20px;
+	background: #fff;
+}
+
+.nav {
+	background: #fff;
+}
+
+.links, ul {
+	list-style: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+
+}
+
+.link {
+	text-decoration: none;
+	color: black;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+.button {
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	align-items: center;
+	padding: 8px 16px;
+	background: none;
+	border: solid 1px rgb(0, 0, 0);
+	border-radius: 5px;
+	color: rgb(0, 0, 0);
+	transition: .5s;
+}
+
+
+.btn-link {
+	text-decoration: none;
+}
+
+.button:hover {
+	border: solid 1px rgb(194, 194, 194);
+	color: rgb(194, 194, 194);
+	transition: .5s;
+}
+
+.bg-button:hover {
+
+	border: solid 1px rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
+	transition: .5s;
+}
+
+.button-person {
+	margin-right: 5px;
+
+}
+
+/* profile */
+
+.profile {
+    background-color: #fff;
+    max-width: 300px;
+	margin: 0 auto;
+    margin-top: 40px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: -2px 1px 10px #727272;
+
+}
+
+.progile-avatar {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 80px;
+}
+
+.avatar-title,
+.avatar-text {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tag-avatar {
+    text-align: center;
+    color: red;
+    border: solid 1px red;
+    padding: 2px 4px;
+}
+
+
+/* admin */
+
+.admin-users {
+    background-color: #fff;
+    margin-top: 40px;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+	flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: -2px 1px 10px #727272;
+    margin: 10px 10px;
+}
+
+.item {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    color: #000;
+}
+
+.admin-button a{
+    text-decoration: none;
+}
+
+
+ 
+/* forms */
+
+.form-airplane {
+	background-color: #fff;
+    margin-top: 40px;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+	flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: -2px 1px 10px #727272;
+}
+
+.form-text {
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.forms {
+	margin-right: 20px;
+}
+
+.time,
+.day {
+	padding: 10px;
+	border: none;
+}
+
+.date {
+	padding: 10px;
+	border: solid 1px #000;
+	width: 100px;
+	
+}
+
+.buttonss {
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	align-items: center;
+	padding: 8px 16px;
+	background: none;
+	border: solid 1px rgb(0, 0, 0);
+	border-radius: 5px;
+	color: rgb(0, 0, 0);
+	transition: .5s;
+}
+
+/* media */
+
+@media (max-width: 400px) {
+	.buttonss {
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.forms {
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 700px) {
+	.buttonss {
+		margin-bottom: 10px;
+	}
+
+	.forms {
+		width: 45%;
+		margin-bottom: 10px;
+	}
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+	.buttonss {
+		margin-bottom: 10px;
+	}
+
+	.forms {
+		width: 20%;
+		margin-bottom: 10px;
+	}
+}
